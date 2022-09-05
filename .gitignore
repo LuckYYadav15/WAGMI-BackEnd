@@ -2,3 +2,4 @@ node_modules
 assets
 config/db.config.js
 .env
+
