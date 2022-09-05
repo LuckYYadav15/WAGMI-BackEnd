@@ -68,7 +68,14 @@ require('./app/routes/categories/category-wise-fmo.routes')(app);
 require('./app/routes/categories/category-wise-ep.routes')(app);
 
 // set port, listen for requests
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}.`);
-});
+// const PORT = process.env.PORT || 8080;
+// app.listen(PORT, () => {
+//     console.log(`Server is running on port ${PORT}.`);
+// });
+app.listen(port, (err) => {
+    if (err) {
+      console.log(err);
+    }
+    console.log(`Server is online and runing at port ${port}`);
+  });
+  
