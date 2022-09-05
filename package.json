@@ -4,7 +4,8 @@
   "description": "Backend for MGNREGA website of Data Analytics",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "start": "node app.js"
   },
   "author": "Team Wagmi",
   "license": "ISC",
